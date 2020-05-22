@@ -1,0 +1,44 @@
+@startuml
+participant 客户端 as client order 10
+participant 调度服务 as server  order 10
+participant 节点 as edge order 10
+participant 流服务 as streaming order 10
+
+== 申请云游戏 ==
+autonumber 1
+client -> server: 申请游戏:{clientIp, game, spec...}
+server -> server: 路由策略
+server -> edge: 调度资源:{game, spec...}
+edge -> edge: 准备资源
+edge -> streaming: 调度流服务:{spec...}
+streaming -> streaming: 准备流服务（RTMP/WebRTC...）
+streaming --> edge: 流地址
+edge --> server: 流地址
+server --> client: 流地址
+client -> streaming: 建立流连接:{url, token...}
+streaming --> client: 鉴权通过，连接成功
+
+== 游戏中... ==
+loop
+edge -> streaming: 原始画面
+streaming -> streaming: 音视频编码（H264/H265...）
+streaming --> client: 游戏画面
+client -> client: 解码渲染（PC/TV/手机...）
+client -> streaming: 输入操作（手柄/鼠标/键盘/触屏...）
+streaming --> edge: 输入操作
+edge -> edge: 处理输入，计算画面
+end
+...
+...
+
+== 释放云游戏 ==
+autonumber 1
+client -> server: 结束游戏
+server -> edge: 结束游戏
+edge -> edge: 用户状态保存（配置、存档...）
+edge -> streaming: 释放流服务
+streaming --> edge: 释放完成
+edge --> server: 资源回收完毕
+server --> client: 游戏结束，欢迎再来
+
+@enduml
