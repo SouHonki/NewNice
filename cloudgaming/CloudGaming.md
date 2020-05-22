@@ -52,7 +52,7 @@
 ## 三、架构及技术分析
 通过体验及综合分析上述云游戏服务，云游戏的整体交互流程如下图（只关心云游戏核心架构，忽略额外的业务场景，如：支付、用户管理等）。
 
-![](src/cloudgaming.png)
+![](res/cloudgaming.png)
 <!--
 <img src="cloudplay1.png" width="80%">
 -->
