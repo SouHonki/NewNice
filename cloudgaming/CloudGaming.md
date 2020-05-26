@@ -44,20 +44,20 @@
 
 ## 二、Stadia测评
 谷歌在2019年发布了Stadia平台后，社会各界对云游戏呈现了空前的热情，很多企业认为云游戏必将成为游戏行业的未来。游戏玩家及游戏厂商纷纷对Stadia进行了各种角度的测评。   
-2019年11月20日Richard Leadbetter, Technology Editor, Digital Foundry在EUROGAMER上发表了一篇对Stadia的测评报告《Stadia tech review: the best game streaming yet, but far from ready》。  
+2019年11月20日Richard Leadbetter, Technology Editor, Digital Foundry在EUROGAMER上发表了一篇对Stadia的测评报告《Stadia tech review: the best game streaming yet, but far from ready》（后简称“报告”）。  
 本次测评使用的设备是价格为129美元的Stadia套装，包含一个谷歌手柄和一个Chromecast Ultra（通过HDMI连接到电视上，接收stadia音视频数据）。  
 Chromecast的电源上提供了网线接口，可支持网线和WIFI两种联网方式，为达到最佳效果本次测评使用了有线网的方式联网。谷歌手柄通过WiFi联网，与Chromecast之间并没有直接交互，二者对于Stadia服务是独立的客户端。  
 本次主要关注Stadia在电视上的表现，PC和手机端使用Stadia不在本次测评范围内。
 
-笔者使用Xbox One X 作为对照设备，进行了延迟和画质两方面的对比测试，网络环境为200Mbps家庭光纤。
+报告中使用Xbox One X 作为对照设备，进行了延迟和画质两方面的对比测试，网络环境为200Mbps家庭光纤。
 ## 延迟对比
 **测试手段：** 使用一台高速摄像机（180fps）拍摄游戏过程，计算按钮按下和画面产生变化的时间差作为延迟数据。  
 **测试游戏：**《命运2》、《古墓丽影暗影》、《真人快打11》、《Gylt》。  
-**测试结果：** Stadia的延迟要比Xbox One X高44~56ms，笔者认为这对于大部分游戏来说是可以接受的。
+**测试结果：** Stadia的延迟要比Xbox One X高44~56ms，报告认为这对于大部分游戏来说是可以接受的。
 
 ## 画质对比
 **Stadia的软件：** Linux系统，Vulkan图形API。  
-**Stadia的硬件：** 2.7GHz的Intel CPU（未得到官方确认，笔者猜测是八核16线程的处理器），10.7teraflop的AMD GPU。  
+**Stadia的硬件：** 2.7GHz的Intel CPU（未得到官方确认，报告中猜测是八核16线程的处理器），10.7teraflop的AMD GPU。  
 **测试游戏：**《古墓丽影暗影》、《命运2》、《荒野大镖客：救赎2》。  
 **测试结果：**  
 《古墓丽影暗影》游戏以4k分辨率运行，视频流也是4k分辨率，损失了一些细节，但运动画质体验较好。  
@@ -65,7 +65,7 @@ Chromecast的电源上提供了网线接口，可支持网线和WIFI两种联网
 《荒野大镖客：救赎2》游戏实际分辨率1440p，插值成4k视频流，帧率30fps。  
 
 ## 整体结论
-笔者认为，虽然损失了一些画质，但相比主机板游戏，Stadia加载时间明显缩短，便捷性上有巨大优势。  
+报告认为，虽然损失了一些画质，但相比主机板游戏，Stadia加载时间明显缩短，便捷性上有巨大优势。  
 然而，基于如此强大的硬件配置，以及作为顶级4k游戏体验平台进行的宣传，目前Stadia的表现还不能够让人满意，仍有很大的提升空间。  
 此外，网络环境波动带来的体验下降，以及巨大的带宽成本（最高画质时每小时20G），都将是日后亟待解决的问题。  
 
