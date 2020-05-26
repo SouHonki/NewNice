@@ -173,9 +173,9 @@ RTMP协议实现相对简单，CDN厂商支持良好。但其缺点也较为明�
 对话红手指: https://www.tmtpost.com/4147096.html  
 BBR: https://blog.csdn.net/dog250/article/details/52830576  
 Quic: https://www.zhihu.com/topic/20016701/hot  
-WebRTC: https://webrtc.org.cn/
-Stadia测评:Stadia tech review: the best game streaming yet, but far from ready https://www.eurogamer.net/articles/digitalfoundry-2019-stadia-tech-review
-华为云手机： https://support.huaweicloud.com/productdesc-cph/cph_prod_1000.html
+WebRTC: https://webrtc.org.cn/  
+Stadia测评:Stadia tech review: the best game streaming yet, but far from ready https://www.eurogamer.net/articles/digitalfoundry-2019-stadia-tech-review  
+华为云手机： https://support.huaweicloud.com/productdesc-cph/cph_prod_1000.html  
 Cloud gaming: architecture and performance  
 Next Generation Mobile Cloud Gaming  
 GameSpot: Cloud Gaming Is The Next Big Thing; Here's Everything You Need To Know  
